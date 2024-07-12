@@ -1,24 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Miltonian&display=swap');
 *{ margin: 0;
 padding: 0;}
 
-h2{ color: rgba(255, 127, 80, 0.856);
+h2{ color: white;
 font-weight: bolder;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: "Miltonian", serif;
 font-style: italic;
-text-decoration: underline;
 font-size: 40px;
 text-align: center;
 }
 #heading-parent{
-    background-color: aqua;
-    height: 500px;
+        background-image: linear-gradient(75deg ,black, rgb(137, 38, 230));
+    height: 600px;
     padding: 100px 0px;
-    width: 800px;
+    max-width:1000px; 
     /* margin-top: 35px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto; */
-    margin: 40px auto;
-    
+    margin: 40px auto;}
+    .btn-parent{
+        text-align: center;
+        margin: 25px 0px;
+        
+    }
+    .btn{ background-color: rgb(184, 92, 226);
+        padding: 9px 18px;
+    border-color: rgba(94, 139, 4, 0.527);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    color: rgba(224, 212, 39, 0.959);
+    font-size: 24px;
+    font-family: "Jacques Francois Shadow", serif;
+   
     
 }
+    
+
