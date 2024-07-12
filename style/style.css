@@ -34,8 +34,9 @@ text-align: center;
     color: rgba(224, 212, 39, 0.959);
     font-size: 24px;
     font-family: "Jacques Francois Shadow", serif;
-   
+     cursor: pointer;
     
 }
+.btn:hover{ background-color:rgb(148, 135, 17) ;}
     
 
